@@ -3,6 +3,8 @@
 ## 🚀 Overview
 This project demonstrates how to securely connect two Azure VNets (**CoreServicesVnet** and **ManufacturingVnet**) using VPN Gateways.  
 It was completed as part of the **AZ-700 Designing and Implementing Microsoft Azure Networking Solutions** lab.
+<img width="19205" height="13643" alt="ContosoResourceGroup" src="https://github.com/user-attachments/assets/37067a5c-1dcc-4aa9-9b5e-274788078b7b" />
+
 
 ---
 
@@ -56,13 +58,15 @@ Configured **CoreServicesVnetGateway** and **ManufacturingVnetGateway** with pub
 
 ### 6. Establishing VNet-to-VNet Connection
 Set up connections between gateways using shared key `abc123`.  
-![Screenshot of connection status](screenshots/connection-status.png)
+<img width="2608" height="612" alt="connections-status-connected" src="https://github.com/user-attachments/assets/c7dce326-e0a3-40cb-b7f1-ad589cd40a74" />
+
 
 ---
 
 ### 7. Final Connectivity Test
 Successfully tested RDP connectivity between CoreServicesVM and ManufacturingVM.  
-![Screenshot of successful ping](screenshots/ping-success.png)
+<img width="1628" height="320" alt="test-connection-succeeded" src="https://github.com/user-attachments/assets/e0525e8d-9e29-416a-be46-0dfc9ab8741e" />
+
 
 ---
 
@@ -70,14 +74,6 @@ Successfully tested RDP connectivity between CoreServicesVM and ManufacturingVM.
 - Azure VPN Gateway enables secure communication between VNets across regions.
 - Gateway SKUs (VpnGw1, VpnGw2, etc.) affect performance and throughput.
 - VNet-to-VNet is one of the main connection types alongside Site-to-Site and Point-to-Site.
-
----
-
-## 🧰 Tools & Technologies
-- Azure Portal  
-- ARM Templates  
-- PowerShell (Cloud Shell)  
-- Remote Desktop Protocol (RDP)  
 
 ---
 
